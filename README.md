@@ -9,13 +9,14 @@ Then you start an express.js API to make the files available for further process
 ## Howto
 - specify artists in ``/server/data/loadArtists.json``
     - available sources = ``spotify |apple_music | amazon | deezer | instagram | tiktok | youtube | shazam | tracklist | beatport | soundcloud | facebook | itunes``
-    - and more. Check the songstats website to find more
+        - and more. Check the songstats website to find more
 - run `npm run scrap`
     - this will scrap an copy all the data from songstats
     - you can also reduce the delay between each request to speed up the process
-        - be carefull you can mybe get softbanned from the website when delay to short
+        - **be carefull you can mybe get softbanned from the website when delay to short**
 - specify/edit ``.env`` file to your needs
-- after the script finished run `npm run start`
+    - copy `.env-template` and rename
+- after the scrap.js script finished run `npm run start`
 
 for dev 
 - use ``npm run dev`` 
@@ -24,11 +25,11 @@ for dev
 
 ##  Routes
 
-|Route| details | live |
+|Route| returns | live |
 |--|--|--|
-| /artists/list | returns ./server/data/loadArtists.json | [/artists/list](https://oskar1504.ngrok.io/songstats/artists/list) |
-| /artists/get/<artist_name> | returns ./server/data/artists/<artist_name>.json | [/artists/get/amelie-lens](https://oskar1504.ngrok.io/songstats/artists/get/amelie-lens)|
-| /artists/source/<artist_name>/<source> | returns <source> from ./server/data/artists/<artist_name>.json | [/artists/source/amelie-lens/spotify](https://oskar1504.ngrok.io/songstats/artists/source/amelie-lens/spotify)|
+| /artists/list | ./server/data/loadArtists.json | [/artists/list](https://oskar1504.ngrok.io/songstats/artists/list) |
+| /artists/get/< artist_name > | ./server/data/artists/< artist_name >.json | [/artists/get/amelie-lens](https://oskar1504.ngrok.io/songstats/artists/get/amelie-lens)|
+| /artists/source/< artist_name >/< source > | < source > from ./server/data/artists/< artist_name >.json | [/artists/source/amelie-lens/spotify](https://oskar1504.ngrok.io/songstats/artists/source/amelie-lens/spotify)|
 
 ## more Config
 - to force rescraping delete all .json files in ./server/data/artists/
