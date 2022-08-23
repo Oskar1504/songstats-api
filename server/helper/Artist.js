@@ -114,7 +114,7 @@ module.exports = class Artist {
 
     Object.keys(inData).forEach(key => {
       // dont load sources from cache due to the fact the can be changed/specified in loadArtist.json
-      if(!key == "sources"){
+      if(key != "sources"){
         this[key] = inData[key]
       }
       //TODO when more sources in input file than in cache refetch the sources
