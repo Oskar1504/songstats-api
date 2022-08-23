@@ -1,0 +1,269 @@
+{
+  "name": "amelie-lens",
+  "searchName": "Amelie Lens",
+  "songstatsSearch": {
+    "id": 31881,
+    "idUnique": "rywk7uxa",
+    "type": "artist",
+    "name": "Amelie Lens",
+    "country": null,
+    "imageUrl": "https://i.scdn.co/image/76599630c2dbd6357ffacba9c42398ecf8e5c286",
+    "hasManagement": false,
+    "baseUrl": "/artist/rywk7uxa/amelie-lens",
+    "links": null,
+    "nonlinks": null,
+    "allLinks": null,
+    "subbedAt": null,
+    "tier": 3,
+    "managementType": null
+  },
+  "charts": {
+    "spotify": [
+      {
+        "text": "Playlists",
+        "secondaryText": "total",
+        "count": 2179,
+        "isTop": 1,
+        "tooltip": "The total number of distinct Spotify playlists with 200+ followers your songs got added to."
+      },
+      {
+        "text": "Playlist Reach",
+        "secondaryText": "total",
+        "count": "14.1M",
+        "isTop": 1,
+        "tooltip": "The combined follower number of all Spotify playlists with 200+ followers your songs got added to."
+      },
+      {
+        "text": "Monthly Listeners",
+        "secondaryText": "current",
+        "overrideText": "Monthly Listeners",
+        "count": "595K",
+        "rank": 3,
+        "tooltip": "The total number of unique listeners in the last 28 days.",
+        "graphPopupData": {
+          "graphDataId": "account-popularity",
+          "source": "spotify"
+        }
+      },
+      {
+        "text": "Followers",
+        "secondaryText": "total",
+        "count": "456K",
+        "rank": 4,
+        "isTop": 0,
+        "tooltip": "The total number of followers on your Spotify artist profile.",
+        "graphPopupData": {
+          "graphDataId": "account-followers",
+          "source": "spotify"
+        }
+      },
+      {
+        "text": "Popularity",
+        "secondaryText": "current",
+        "count": "48%",
+        "rank": 5,
+        "tooltip": "An internal Spotify ranking of all artists on a scale from 0 to 100.",
+        "graphPopupData": {
+          "graphDataId": "account-popularity",
+          "source": "spotify"
+        }
+      },
+      {
+        "text": "Artist Rank",
+        "secondaryText": "global",
+        "count": "#13K+",
+        "rank": 8,
+        "tooltip": "Your global artist rank across the Spotify ecosystem based on monthly listeners."
+      },
+      {
+        "text": "Playlists",
+        "secondaryText": "current",
+        "rank": 9,
+        "count": 1638,
+        "tooltip": "The number of distinct Spotify playlists with 200+ followers your songs are currently in."
+      },
+      {
+        "text": "Playlist Reach",
+        "secondaryText": "current",
+        "rank": 10,
+        "count": "4.38M",
+        "tooltip": "The combined follower number of Spotify playlists with 200+ followers your songs are currently in."
+      },
+      {
+        "text": "Charts",
+        "secondaryText": "total",
+        "rank": 11,
+        "count": 10,
+        "tooltip": "The total number of distinct Spotify charts your songs have entered."
+      },
+      {
+        "text": "Charted Tracks",
+        "secondaryText": "total",
+        "rank": 12,
+        "count": 9,
+        "tooltip": "The total number of tracks that entered the Spotify charts."
+      }
+    ],
+    "youtube": [
+      {
+        "text": "Subscribers",
+        "secondaryText": "current",
+        "count": "297K",
+        "graphPopupData": {
+          "graphDataId": "account-subscribers",
+          "source": "youtube"
+        },
+        "rank": 1,
+        "tooltip": "The total number of subscribers on your own YouTube channel."
+      },
+      {
+        "text": "Channel Views",
+        "secondaryText": "Total",
+        "count": "28.9M",
+        "rank": 2,
+        "tooltip": "The total number of views on your YouTube channel(s)."
+      },
+      {
+        "text": "Video Views",
+        "secondaryText": "total",
+        "count": "23.1M",
+        "isTop": 1,
+        "rank": 3,
+        "tooltip": "The total number of views across all YouTube videos containing your music."
+      },
+      {
+        "text": "Playlists",
+        "secondaryText": "total",
+        "count": 1,
+        "isTop": 1,
+        "tooltip": "The total number of distinct YouTube Music playlists your songs got added to."
+      },
+      {
+        "text": "Video Likes",
+        "secondaryText": "total",
+        "count": "368K",
+        "graphPopupData": {
+          "graphDataId": "account-likes",
+          "source": "youtube"
+        },
+        "rank": 4,
+        "tooltip": "The total number of likes across all YouTube videos containing your music."
+      },
+      {
+        "text": "Video Comments",
+        "secondaryText": "total",
+        "count": 4331,
+        "graphPopupData": {
+          "graphDataId": "account-comments",
+          "source": "youtube"
+        },
+        "rank": 5,
+        "tooltip": "The total number of comments across all YouTube videos containing your music."
+      },
+      {
+        "text": "Video Reach",
+        "secondaryText": "Combined",
+        "count": "1.84M",
+        "rank": 6,
+        "tooltip": "The combined number of subscribers of channels that uploaded videos containing your music."
+      },
+      {
+        "text": "Shorts",
+        "secondaryText": "total",
+        "count": 66,
+        "rank": 7,
+        "tooltip": "The total number of YouTube Shorts containing your music."
+      },
+      {
+        "text": "Short Views",
+        "secondaryText": "total",
+        "count": "18.5K",
+        "rank": 8,
+        "tooltip": "The total number of views across all YouTube Shorts containing your music."
+      },
+      {
+        "text": "Short Likes",
+        "secondaryText": "total",
+        "count": 531,
+        "rank": 9,
+        "tooltip": "The total number of likes across all YouTube Shorts containing your music."
+      },
+      {
+        "text": "Short Comments",
+        "secondaryText": "total",
+        "count": 34,
+        "rank": 10,
+        "tooltip": "The total number of comments across all YouTube Shorts containing your music."
+      },
+      {
+        "text": "Playlists",
+        "secondaryText": "current",
+        "rank": 11,
+        "count": 1,
+        "tooltip": "The number of distinct YouTube Music playlists your songs are currently in."
+      }
+    ],
+    "deezer": [
+      {
+        "text": "Playlists",
+        "secondaryText": "total",
+        "count": 72,
+        "isTop": 1,
+        "tooltip": "The total number of distinct Deezer playlists your songs got added to."
+      },
+      {
+        "text": "Playlist Reach",
+        "secondaryText": "total",
+        "count": "1.1M",
+        "isTop": 1,
+        "tooltip": "The combined follower number of all Deezer playlists your songs got added to."
+      },
+      {
+        "text": "Followers",
+        "secondaryText": "total",
+        "rank": 4,
+        "isTop": 0,
+        "count": "67.2K",
+        "tooltip": "The total number of followers on your Deezer artist profile.",
+        "graphPopupData": {
+          "graphDataId": "account-followers",
+          "source": "deezer"
+        }
+      },
+      {
+        "text": "Playlists",
+        "secondaryText": "current",
+        "rank": 5,
+        "count": 62,
+        "tooltip": "The number of distinct Deezer playlists your songs are currently in."
+      },
+      {
+        "text": "Playlist Reach",
+        "secondaryText": "current",
+        "rank": 6,
+        "count": "229K",
+        "tooltip": "The combined follower number of Deezer playlists your songs are currently in."
+      },
+      {
+        "text": "Charts",
+        "secondaryText": "total",
+        "rank": 7,
+        "count": 11,
+        "tooltip": "The total number of distinct Deezer charts your songs have entered."
+      },
+      {
+        "text": "Charted Tracks",
+        "secondaryText": "total",
+        "rank": 8,
+        "count": 19,
+        "tooltip": "The total number of tracks that entered the Deezer charts."
+      }
+    ]
+  },
+  "created": 1661269707597,
+  "sources": [
+    "spotify",
+    "youtube",
+    "deezer"
+  ]
+}
