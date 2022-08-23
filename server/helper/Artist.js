@@ -116,6 +116,7 @@ module.exports = class Artist {
       if(!key == "sources"){
         this[key] = inData[key]
       }
+      //TODO when more sources in input file than in cache refetch the sources
       
     })
   }
