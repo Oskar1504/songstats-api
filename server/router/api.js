@@ -4,6 +4,9 @@ const fs = require('fs')
 const Response = require('../helper/Response');
 
 const router = express.Router();
+// used when compiling the routes in the MainAPiConnector
+router["custom"] = {};
+router.custom["parent_path"] = "/artists";
 
 router.get('/list', async (req, res) => {
     try{
