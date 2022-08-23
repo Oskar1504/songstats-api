@@ -24,15 +24,11 @@ for dev
 
 ##  Routes
 
-```
-/artists/list => returns ./server/data/loadArtists.json
-```
-```
-/artists/get/<artist_name> => returns ./server/data/artists/<artist_name>.json
-```
-```
-/artists/source/<artist_name>/<source> => returns <source> from ./server/data/artists/<artist_name>.json
-```
+|Route| details | live |
+|--|--|--|
+| /artists/list | returns ./server/data/loadArtists.json | [/artists/list](https://oskar1504.ngrok.io/songstats/artists/list) |
+| /artists/get/<artist_name> | returns ./server/data/artists/<artist_name>.json | [/artists/get/amelie-lens](https://oskar1504.ngrok.io/songstats/artists/get/amelie-lens)|
+| /artists/source/<artist_name>/<source> | returns <source> from ./server/data/artists/<artist_name>.json | [/artists/source/amelie-lens/spotify](https://oskar1504.ngrok.io/songstats/artists/source/amelie-lens/spotify)|
 
 ## more Config
 - to force rescraping delete all .json files in ./server/data/artists/
