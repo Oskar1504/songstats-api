@@ -1,9 +1,10 @@
+require("dotenv").config()
 const axios = require("axios");
 const fs = require("fs");
 
 const dataFiles = "./server/data/artists/"
 
-const scrapDelay = 5
+const scrapDelay = process.env.DELAY_BETWEEN_SOURCE
 
 module.exports = class Artist {
   constructor(index, searchName, sources) {

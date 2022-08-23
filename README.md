@@ -36,7 +36,9 @@ for dev
 
 ## more Config
 - to force rescraping delete all .json files in ./server/data/artists/
-- you can specify in ``./server/scrap.js`` after how many seconds the cached artist data files gets invalidated and needs to be refetched
+- you can specify in ``.env`` file 
+    - ``DELAY_BETWEEN_CACHE_INVALID`` = after how many seconds the cached artist data files gets invalidated and needs to be refetched
+    - ``DELAY_BETWEEN_SOURCE`` = delay between each source request
 
 
 ## Future plans

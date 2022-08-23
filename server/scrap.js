@@ -1,11 +1,11 @@
+require("dotenv").config()
 const Artist = require("./helper/Artist");
 const Need = require("./data/loadArtists.json")
 
 
-const updateSeconds = 3600
+const updateSeconds = process.env.DELAY_BETWEEN_CACHE_INVALID
 
 let artists = {}
-
 
 async function main(){
 
@@ -38,3 +38,6 @@ async function main(){
 }
 
 main()
+
+// after the main function artists is an object full off all loaded artists. 
+// now you could process them further an savetofile if u need to edit the artist data
