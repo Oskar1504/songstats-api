@@ -1,0 +1,12 @@
+[
+    {
+        "name":"amelie-lens",
+        "searchName": "Amelie Lens",
+        "sources": ["spotify", "youtube", "deezer"]
+    },
+    {
+        "name":"pmc",
+        "searchName": "Pöbel MC",
+        "sources": ["spotify", "youtube"]
+    }
+]
