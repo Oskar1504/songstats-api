@@ -1,6 +1,8 @@
 # Songstats api
 
-this is a small tool which lets you host your own songstats api.
+this project is an application which uses/scraps the intern api from songstats .com which is an website where multiple data sources like (spotify,youtube,deezer) ar bundled for alot of artists
+
+the provided api from songstats isn't free so i built a small app which lets you host your own api based upon the data provided by the songstats api
 
 First you scrap the data from the artists u need.
 
